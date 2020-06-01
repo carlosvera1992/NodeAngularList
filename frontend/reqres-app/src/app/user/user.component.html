@@ -1,6 +1,33 @@
-<h1>User Information</h1>
-<p>Email: {{email}}</p>
-<p>First Name: {{firstName}}</p>
-<p>Last Name: {{lastName}}</p>
-<p>avatar:</p>
-<img src="{{avatar}}">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="col">
+            <h1 class="mt-4">User Information</h1>
+            <a href="#" class="btn btn-secondary mb-3" title="back to the home">Home</a>
+            <p class="h6">Id: {{idUser}}</p>
+            <p class="h6">Email: {{email}}</p>
+            <p class="h6">First Name: {{firstName}}</p>
+            <p class="h6">Last Name: {{lastName}}</p>
+            <p class="h6">avatar:</p>
+            <img src="{{avatar}}">
+
+        </div>
+
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</html>
